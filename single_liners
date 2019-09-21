@@ -1,2 +1,0 @@
-#converts csv text files to tsv text
-sed 's/,/\t/g' CSV_example.csv > output_tab.txt
