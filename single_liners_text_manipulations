@@ -1,4 +1,4 @@
 #converts csv text files to tsv text
 sed 's/,/\t/g' CSV_example.csv > output_tab.txt
 #improvising the above and testing for tab separated text to space separated text
-sed 's/\t/ /g' output_tab.tx > output_space.txt
+sed 's/\t/ /g' output_tab.txt > output_space.txt
